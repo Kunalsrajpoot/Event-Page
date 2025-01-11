@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+h1, h2 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+/* Subtitle Styling */
+.subtitle {
+    font-size: 20px;
+    color: #7f8c8d;
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+nav {
+    background: #34495e;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* About Section */
+#About p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+/* Schedule Section Box */
+.schedule-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+}
+
+.schedule-box table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.schedule-box th, .schedule-box td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.schedule-box th {
+    background-color: #2c3e50;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.schedule-box tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.schedule-box tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+/* Speaker Section */
+#Speaker li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* Contact Section */
+#Contact label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+#Contact input, #Contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#Contact button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#Contact button:hover {
+    background-color: #2980b9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    nav a {
+        margin: 0 10px;
+    }
+
+    #Schedule table {
+        font-size: 14px;
+    }
+}
